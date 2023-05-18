@@ -370,16 +370,26 @@ $padding--XXL: 6rem;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+
     &__videoCnt {
       width: 72%;
       margin: 0 auto;
       padding: 40px 0;
+      
     }
-    &__iframe {
-      width: 100%;
-      min-height: 450px;
-      z-index: 1;
+    video {
+      display: block;
+      margin: auto;
+      width: 80%;
+      object-fit: contain;
+      overflow-clip-margin: content-box;
+      overflow: clip;
     }
+    // &__iframe {
+    //   width: 100%;
+    //   min-height: 450px;
+    //   z-index: 1;
+    // }
   }
   .es-before-after {
     background-image: url("#{$file-path}bg-before-after#{$img-format}");
@@ -705,3 +715,5 @@ $padding--XXL: 6rem;
     }
   }
 }
+
+ 

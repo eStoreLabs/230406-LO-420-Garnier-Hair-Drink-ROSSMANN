@@ -296,10 +296,14 @@
   margin: 0 auto;
   padding: 40px 0;
 }
-#es-RC-container .es-video__iframe {
-  width: 100%;
-  min-height: 450px;
-  z-index: 1;
+#es-RC-container .es-video video {
+  display: block;
+  margin: auto;
+  width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+  overflow-clip-margin: content-box;
+  overflow: clip;
 }
 #es-RC-container .es-before-after {
   background-image: url("./img/bg-before-after.jpg");
