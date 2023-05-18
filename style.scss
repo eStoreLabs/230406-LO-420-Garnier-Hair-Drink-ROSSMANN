@@ -36,7 +36,7 @@ $txt-stroke--accent: -1px 1px 0 $color--accent-2, 1px 1px 0 $color--accent-2,
 // utility variables
 // images
 $file-path: "./img/";
-$img-format: ".png";
+$img-format: ".jpg";
 
 // padding
 $padding--XS: 0.2rem;
@@ -586,7 +586,7 @@ $padding--XXL: 6rem;
     .es-how {
       &__wrapper {
         &::before {
-          content: url("#{$file-path}arrow-left#{$img-format}");
+          content: url("#{$file-path}arrow-left.png");
           position: absolute;
           left: -125px;
           top: 93px;
