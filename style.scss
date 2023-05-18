@@ -25,7 +25,6 @@ $fs__heading--bottom: clamp(
   2.25rem
 ); // 300px-800px, 28-36px
 $fs__body: clamp(0.875rem, 0.8rem + 0.4vw, 1rem); //14-16px
-// $txt-shadow: 4px 2px 4px rgba(166, 97, 97, 0.3);
 $txt-shadow: 4px 2px 4px $color--shadow;
 $txt-stroke--white: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
   -1px -1px 0 #fff;
@@ -150,7 +149,7 @@ $padding--XXL: 6rem;
 
 #es-RC-container {
   font-family: $ff--montserrat;
-  max-width: 999px;
+  max-width: 930px;
   margin: auto;
   //reset
   *,
